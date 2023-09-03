@@ -1,0 +1,123 @@
+body{
+  background-color: aqua;
+  font-size: 16pt;
+  font-family: 'Karla', sans-serif;
+}
+
+ .containerBox{
+   margin-top:10%;
+   margin-left:10%;
+   width:1000px;
+   border: 6px solid orange;
+   border-radius: 5px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0, .7);
+} 
+ 
+.splitBox{
+  display :flex;
+}
+
+
+.upperBox{
+  /*background-color:hsl(204, 43%, 93%);*/
+  background-color:white;
+  padding-left: 40px;
+  margin-bottom:-21px;
+  
+}
+
+.lowerBox1{
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  flex: 50%;
+  padding-left: 40px;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.lowerBox2{
+  border-top: 1px solid black;
+  flex: 50%;
+  padding-left: 40px;
+  background-color: rgb(74,200,200);
+}
+
+h2{
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+.whiteText{
+  color: white;
+}
+
+.whiteMoney{
+  color: white;
+  font-size: 20pt;
+  font-weight:700;
+}
+
+#whiteAccess{
+  color: white;
+}
+
+.my_btn{
+  width: 275px;
+  height: 50px;
+  /* I prefer this*/
+  /*color: green;*/
+  color: white;
+  font-size: 1.5rem;
+  background-color:hsl(73, 73%, 54%);
+  /* a border size here stuffs up the centering 
+     of the text*/
+  border:transparent;
+  border-radius: 10px;
+}
+
+.greyText{
+  color: hsl(204, 43%, 93%);
+}
+
+.greenText{
+  /*color: #EBD02A;*/
+  color: rgb(194,216,81);
+ font-weight: 700;
+  /*color: green;*/
+  /*opacity: .8;*/
+  font-weight: 700;
+}
+
+.headerText{
+  color: rgb(64,152,154);
+  font-weight: 700;
+  text-shadow: 2px 2px 8px;  
+}
+
+.per{
+  color:hsl(71, 73%, 54%);
+  margin: auto;
+  vertical-align: 4px;
+  font-size: 1rem;
+}
+
+.gray{
+  color: hsl(218, 22%, 67%);
+}
+
+.my_btn:hover {
+  cursor: pointer;
+  background-color:#002ead;
+  color: white;
+  /* now this give a strange effect*/
+  transition: 0.7;
+  /*border: 2px solid black;*/
+  /* makes button bigger coolio */
+  /* nope using 1.1 stuffs up the centering*/
+  transform: scale(1.15);
+}
+
+.my_btn:active {
+  background-color: #ffbf00;
+  border: 2px solid white;
+  color: black;
+}
